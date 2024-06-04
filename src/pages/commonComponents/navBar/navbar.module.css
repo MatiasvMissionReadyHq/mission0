@@ -1,16 +1,16 @@
 #boxContainer {
     display: flex;
     background-color: #ffffff; 
-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); 
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); 
     /* flex-direction: row; */
     justify-content: space-between;
     flex-wrap: wrap; 
-    height: 50px;
+    height: 60px;
     text-align: center;
-    padding-top: .75rem;
-    padding-bottom: 3.5rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 
 
 }
@@ -23,12 +23,14 @@ box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
     color: rgb(40 40 40);
     flex-grow:1;
     margin-left: 0px;
+    align-items: center;
 }
 
 #navBox {
     display: flex;
     flex-grow:2;
     justify-content: end;
+    align-items: center;
 
 }
 
@@ -42,8 +44,8 @@ a {
 }
 
 #dotBox {
-    height: 40px;
-    width: 40px;
+    height: 55px;
+    width: 55px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;

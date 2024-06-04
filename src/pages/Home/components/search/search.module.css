@@ -87,10 +87,7 @@ input:focus {
         width: 75%;
         font-size: 65px;
         padding-bottom: 1rem;
-    }
-    .searchContainer{
-        background-image:none;
-    }   
+    }  
 
 }
 
@@ -107,6 +104,7 @@ input:focus {
 
     .searchInput{
         margin-bottom: 10px;
+        width: auto; 
     }  
 
     button{

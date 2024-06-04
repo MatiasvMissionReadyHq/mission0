@@ -1,0 +1,167 @@
+.searchContainer{
+
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem; 
+    padding-left: 4rem;
+    text-align: center; 
+    background-color: rgb(229 229 229);
+    background-image: url('src/assets/background.png');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center top;
+}
+
+.titleContainer{
+    display: flex;
+    width: 30%;
+    text-align: left;
+    font-size: 50px;
+    color:#ffffff;
+    padding-bottom: 8rem;
+
+}
+
+.searchBarContain{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+
+.searchInput{
+    padding-top: 1rem;
+    padding-bottom: 1rem; 
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 66.666667%; 
+    border:none;
+}
+
+button{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    padding-left: 2rem;
+    padding-right: 2rem; 
+    color: #ffffff; 
+    background-color: #0e0e0e; 
+    cursor: pointer;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+/* Media query for screens less than 12090px */
+@media (max-width:1200px) {
+    .titleContainer{
+        width: 34%;
+        font-size: 45px;
+        padding-bottom: 6rem;
+    }
+}
+
+/* Media query for screens less than 1010px */
+@media (max-width:1010px) {
+    .titleContainer{
+        width: 40%;
+        font-size: 45px;
+        padding-bottom: 1rem;
+    }
+    .searchContainer{
+        background-image:none;
+    }  
+    .searchInput{
+        width: 100%; 
+    }  
+
+}
+
+/* Media query for screens less than 850px */
+@media (max-width:850px) {
+    .titleContainer{
+        width: 75%;
+        font-size: 65px;
+        padding-bottom: 1rem;
+    }
+    .searchContainer{
+        background-image:none;
+    }   
+
+}
+
+
+/* Media query for screens less than 635px */
+@media (max-width:635px) {
+
+    .titleContainer{
+        font-size: 55px;
+    }    
+    .searchBarContain{
+        flex-direction: column;
+    }
+
+    .searchInput{
+        margin-bottom: 10px;
+    }  
+
+    button{
+        padding-top: 1rem;
+        padding-bottom: 1rem; 
+    }
+    .searchContainer{
+        margin-bottom: 2rem;
+    }
+
+}
+
+
+/* Media query for screens less than 555px */
+@media (max-width:555px) {
+
+    .titleContainer{
+        font-size: 50px;
+    }   
+
+    .searchBarContain{
+        margin-top: 30px; 
+    }
+}    
+
+/* Media query for screens less than 510px */
+@media (max-width:510px) {
+
+    .titleContainer{
+        font-size: 40px;
+    }  
+    .searchInput{
+        margin-bottom: 10px;
+    } 
+}   
+
+
+/* Media query for screens less than 430px */
+@media (max-width:430px) {
+
+    .titleContainer{
+        font-size: 30px;
+    } 
+    .searchBarContain{
+        margin-top: 15px; 
+    }  
+}  
+
+/* Media query for screens less than 430px */
+@media (max-width:350px) {
+
+    .titleContainer{
+        font-size: 25px;
+    } 
+    .searchBarContain{
+        margin-top: 5px; 
+    }  
+}  

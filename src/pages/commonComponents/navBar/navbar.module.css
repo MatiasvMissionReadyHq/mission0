@@ -1,0 +1,80 @@
+#boxContainer {
+    display: flex;
+    background-color: #ffffff; 
+box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); 
+    /* flex-direction: row; */
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    height: 50px;
+    text-align: center;
+    padding-top: .75rem;
+    padding-bottom: 3.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+
+}
+
+
+#LogoBox {
+    display: flex;
+    /* background-color: dodgerblue; */
+    text-decoration: inherit;
+    color: rgb(40 40 40);
+    flex-grow:1;
+    margin-left: 0px;
+}
+
+#navBox {
+    display: flex;
+    flex-grow:2;
+    justify-content: end;
+
+}
+
+
+a {
+    text-decoration: inherit;
+    margin-left: 1rem; 
+    color: #1F2937; 
+    padding:0.5rem 1rem 0.5rem 1rem;
+    cursor: pointer;
+}
+
+#dotBox {
+    height: 40px;
+    width: 40px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.loginButton{
+    border-width: 1px; 
+    border-radius: 0.5rem; 
+    color: #1F2937; 
+    border:1px solid #1F2937; 
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.menuIcon {
+    display: none;
+    cursor: pointer;
+    font-size: 36px;
+}
+
+/* Media query for screens less than 620px */
+@media (max-width:620px) {
+    #navBox {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    .menuIcon {
+        display: block;
+    }
+    /* nav {
+        flex-direction: column;
+    } */
+}

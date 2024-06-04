@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    font-family: tahoma;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    width: 100%;
+    background-color: white;
+    overflow-y: overlay;
+}
+
+.mainContainer {  
+    display: flex;  
+    flex-direction: column;  
+    flex-wrap: wrap; 
+
+}

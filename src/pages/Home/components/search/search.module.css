@@ -61,7 +61,7 @@ input:focus {
     .titleContainer{
         width: 34%;
         font-size: 45px;
-        padding-bottom: 6rem;
+        /* padding-bottom: 6rem; */
     }
 }
 
@@ -85,7 +85,7 @@ input:focus {
 @media (max-width:850px) {
     .titleContainer{
         width: 75%;
-        font-size: 65px;
+        font-size: 67px;
         padding-bottom: 1rem;
     }  
 
@@ -106,6 +106,7 @@ input:focus {
         margin-bottom: 10px;
         width: auto; 
     }  
+
 
     button{
         padding-top: 1rem;

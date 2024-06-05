@@ -1,7 +1,7 @@
 import style from './home.module.css';
 import Navbar from '../commonComponents/navBar/Navbar';
 import Search from './components/search/Search';
-import Cards from './components/cards/Cards';
+import CardGrid from './components/CardGrid/CardGrid';
 
 const Home = () =>{
 
@@ -9,7 +9,7 @@ const Home = () =>{
         <>
             <Navbar/>
             <Search/>
-            <Cards/>
+            <CardGrid/>
         </>
     ); 
 }

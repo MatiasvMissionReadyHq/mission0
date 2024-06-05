@@ -54,7 +54,7 @@ To use the project, simply visit [https://black-cliff-07962791e.5.azurestaticapp
 
 ## Technologies Used
 
-- React
+- [![React][React.js]][React-url]
 - Azure Static Web Apps
 - css modules
 
